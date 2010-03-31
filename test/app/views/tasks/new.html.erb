@@ -1,0 +1,4 @@
+<% form_for :task, Task.new, tasks_path, :method => :post do |form| %>
+  <%= render "form", :form => form %>
+  <%= form.submit "Create" %>
+<% end %>

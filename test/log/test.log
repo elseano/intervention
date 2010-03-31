@@ -1,0 +1,214 @@
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.5ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 02:59:37', '2010-03-31 02:59:37', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 02:59:37', '2010-03-31 02:59:37', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 02:59:37', '2010-03-31 02:59:37', 10)[0m
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.4ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 02:59:49', '2010-03-31 02:59:49', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 02:59:49', '2010-03-31 02:59:49', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 02:59:49', '2010-03-31 02:59:49', 10)[0m
+  [4;36;1mPriority Load (0.3ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+
+
+Processing TasksController#new (for 0.0.0.0 at 2010-03-31 13:59:49) [GET]
+Rendering tasks/new
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.4ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 03:00:13', '2010-03-31 03:00:13', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 03:00:13', '2010-03-31 03:00:13', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 03:00:13', '2010-03-31 03:00:13', 10)[0m
+  [4;36;1mPriority Load (0.3ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mTask Create (0.4ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "priority_id", "updated_at") VALUES('--- 
+- f
+- l
+- m
+- i
+- j
+- l
+- f
+- p
+- a
+- q
+', '2010-03-31 03:00:13', 3, '2010-03-31 03:00:13')[0m
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2010-03-31 14:00:13) [GET]
+  Parameters: {"id"=>#<Task id: 1, name: "--- \n- f\n- l\n- m\n- i\n- j\n- l\n- f\n- p\n- a\n- q\n", priority_id: 3, created_at: "2010-03-31 03:00:13", updated_at: "2010-03-31 03:00:13">}
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering tasks/edit
+
+
+Processing TasksController#new (for 0.0.0.0 at 2010-03-31 14:00:13) [GET]
+Rendering tasks/new
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.4ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 03:00:42', '2010-03-31 03:00:42', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 03:00:42', '2010-03-31 03:00:42', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 03:00:42', '2010-03-31 03:00:42', 10)[0m
+  [4;36;1mPriority Load (0.3ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mTask Create (0.3ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "priority_id", "updated_at") VALUES('--- 
+- f
+- l
+- m
+- i
+- j
+- l
+- f
+- p
+- a
+- q
+', '2010-03-31 03:00:42', 2, '2010-03-31 03:00:42')[0m
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2010-03-31 14:00:42) [GET]
+  Parameters: {"id"=>#<Task id: 1, name: "--- \n- f\n- l\n- m\n- i\n- j\n- l\n- f\n- p\n- a\n- q\n", priority_id: 2, created_at: "2010-03-31 03:00:42", updated_at: "2010-03-31 03:00:42">}
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering tasks/edit
+
+
+Processing TasksController#new (for 0.0.0.0 at 2010-03-31 14:00:42) [GET]
+Rendering tasks/new
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.4ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 03:00:58', '2010-03-31 03:00:58', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 03:00:58', '2010-03-31 03:00:58', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 03:00:58', '2010-03-31 03:00:58', 10)[0m
+  [4;36;1mPriority Load (0.3ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mTask Create (0.3ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "priority_id", "updated_at") VALUES('--- 
+- f
+- l
+- m
+- i
+- j
+- l
+- f
+- p
+- a
+- q
+', '2010-03-31 03:00:58', 3, '2010-03-31 03:00:58')[0m
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2010-03-31 14:00:58) [GET]
+  Parameters: {"id"=>#<Task id: 1, name: "--- \n- f\n- l\n- m\n- i\n- j\n- l\n- f\n- p\n- a\n- q\n", priority_id: 3, created_at: "2010-03-31 03:00:58", updated_at: "2010-03-31 03:00:58">}
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering tasks/edit
+
+
+Processing TasksController#new (for 0.0.0.0 at 2010-03-31 14:00:58) [GET]
+Rendering tasks/new
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" ORDER BY name[0m
+Rendered tasks/_form (1.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/tasks/new]
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.4ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 03:01:29', '2010-03-31 03:01:29', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 03:01:29', '2010-03-31 03:01:29', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 03:01:29', '2010-03-31 03:01:29', 10)[0m
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mTask Create (0.3ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "priority_id", "updated_at") VALUES('--- 
+- f
+- l
+- m
+- i
+- j
+- l
+- f
+- p
+- a
+- q
+', '2010-03-31 03:01:29', 1, '2010-03-31 03:01:29')[0m
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2010-03-31 14:01:29) [GET]
+  Parameters: {"id"=>#<Task id: 1, name: "--- \n- f\n- l\n- m\n- i\n- j\n- l\n- f\n- p\n- a\n- q\n", priority_id: 1, created_at: "2010-03-31 03:01:29", updated_at: "2010-03-31 03:01:29">}
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering tasks/edit
+  [4;36;1mPriority Load (0.3ms)[0m   [0;1mSELECT * FROM "priorities" WHERE ("priorities"."id" = 1) [0m
+  [4;35;1mPriority Load (0.3ms)[0m   [0mSELECT * FROM "priorities" ORDER BY name[0m
+Rendered tasks/_form (3.3ms)
+Completed in 8ms (View: 6, DB: 3) | 200 OK [http://test.host/tasks/1/edit]
+
+
+Processing TasksController#new (for 0.0.0.0 at 2010-03-31 14:01:29) [GET]
+Rendering tasks/new
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" ORDER BY name[0m
+Rendered tasks/_form (1.5ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/tasks/new]
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.4ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 03:02:02', '2010-03-31 03:02:02', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 03:02:02', '2010-03-31 03:02:02', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 03:02:02', '2010-03-31 03:02:02', 10)[0m
+  [4;36;1mPriority Load (0.3ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mTask Create (0.3ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "priority_id", "updated_at") VALUES('--- 
+- f
+- l
+- m
+- i
+- j
+- l
+- f
+- p
+- a
+- q
+', '2010-03-31 03:02:02', 3, '2010-03-31 03:02:02')[0m
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2010-03-31 14:02:02) [GET]
+  Parameters: {"id"=>#<Task id: 1, name: "--- \n- f\n- l\n- m\n- i\n- j\n- l\n- f\n- p\n- a\n- q\n", priority_id: 3, created_at: "2010-03-31 03:02:02", updated_at: "2010-03-31 03:02:02">}
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering tasks/edit
+  [4;36;1mPriority Load (0.2ms)[0m   [0;1mSELECT * FROM "priorities" WHERE ("priorities"."id" = 3) [0m
+  [4;35;1mPriority Load (0.2ms)[0m   [0mSELECT * FROM "priorities" ORDER BY name[0m
+Rendered tasks/_form (2.5ms)
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://test.host/tasks/1/edit]
+
+
+Processing TasksController#new (for 0.0.0.0 at 2010-03-31 14:02:02) [GET]
+Rendering tasks/new
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" ORDER BY name[0m
+Rendered tasks/_form (1.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/tasks/new]
+  [4;36;1mPriority Load (0.4ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Create (0.4ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 03:02:06', '2010-03-31 03:02:06', 0)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 03:02:06', '2010-03-31 03:02:06', 5)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 03:02:06', '2010-03-31 03:02:06', 10)[0m
+  [4;36;1mPriority Load (0.3ms)[0m   [0;1mSELECT * FROM "priorities" ORDER BY name[0m
+  [4;35;1mPriority Load (0.2ms)[0m   [0mSELECT * FROM "priorities" ORDER BY name[0m
+  [4;36;1mPriority Load (0.6ms)[0m   [0;1mSELECT * FROM "priorities" [0m
+  [4;35;1mPriority Destroy (0.3ms)[0m   [0mDELETE FROM "priorities" WHERE "id" = 1[0m
+  [4;36;1mPriority Destroy (0.1ms)[0m   [0;1mDELETE FROM "priorities" WHERE "id" = 2[0m
+  [4;35;1mPriority Destroy (0.1ms)[0m   [0mDELETE FROM "priorities" WHERE "id" = 3[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Low', '2010-03-31 03:02:07', '2010-03-31 03:02:07', 0)[0m
+  [4;35;1mPriority Create (0.2ms)[0m   [0mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('Medium', '2010-03-31 03:02:07', '2010-03-31 03:02:07', 5)[0m
+  [4;36;1mPriority Create (0.2ms)[0m   [0;1mINSERT INTO "priorities" ("name", "created_at", "updated_at", "level") VALUES('High', '2010-03-31 03:02:07', '2010-03-31 03:02:07', 10)[0m
+  [4;35;1mPriority Load (0.3ms)[0m   [0mSELECT * FROM "priorities" [0m
+  [4;36;1mTask Create (0.3ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "priority_id", "updated_at") VALUES('--- 
+- f
+- l
+- m
+- i
+- j
+- l
+- f
+- p
+- a
+- q
+', '2010-03-31 03:02:07', 6, '2010-03-31 03:02:07')[0m
+  [4;35;1mTask Load (0.1ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+
+
+Processing TasksController#edit (for 0.0.0.0 at 2010-03-31 14:02:07) [GET]
+  Parameters: {"id"=>#<Task id: 1, name: "--- \n- f\n- l\n- m\n- i\n- j\n- l\n- f\n- p\n- a\n- q\n", priority_id: 6, created_at: "2010-03-31 03:02:07", updated_at: "2010-03-31 03:02:07">}
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1) [0m
+Rendering tasks/edit
+  [4;35;1mPriority Load (0.2ms)[0m   [0mSELECT * FROM "priorities" WHERE ("priorities"."id" = 6) [0m
+  [4;36;1mPriority Load (0.2ms)[0m   [0;1mSELECT * FROM "priorities" ORDER BY name[0m
+Rendered tasks/_form (2.4ms)
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://test.host/tasks/1/edit]
+
+
+Processing TasksController#new (for 0.0.0.0 at 2010-03-31 14:02:07) [GET]
+Rendering tasks/new
+  [4;35;1mPriority Load (0.4ms)[0m   [0mSELECT * FROM "priorities" ORDER BY name[0m
+Rendered tasks/_form (1.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/tasks/new]
